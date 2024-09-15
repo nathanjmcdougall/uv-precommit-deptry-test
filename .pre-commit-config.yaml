@@ -1,0 +1,10 @@
+repos:
+  - repo: local
+    hooks:
+      - id: deptry
+        name: deptry
+        entry: uv run --frozen deptry .
+        additional_dependencies: [uv]
+        language: python
+        always_run: true
+        pass_filenames: false

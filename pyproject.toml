@@ -1,0 +1,13 @@
+[project]
+name = "uv-precommit-deptry-test"
+version = "0.1.0"
+description = "Trying to configure `deptry` as a pre-commit hook to run on pre-commit.ci using uv"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+dev-dependencies = [
+    "deptry>=0.20.0",
+    "pre-commit>=3.8.0",
+]
