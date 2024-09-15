@@ -3,7 +3,7 @@ repos:
     hooks:
       - id: deptry
         name: deptry
-        entry: uv run --frozen deptry .
+        entry: uv run --frozen --offline deptry .
         additional_dependencies: [uv]
         language: python
         always_run: true
